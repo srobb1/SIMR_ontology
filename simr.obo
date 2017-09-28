@@ -1,0 +1,218 @@
+format-version: 1.2
+data-version: releases/2017-07-28
+remark: SIMR Ontology
+ontology: simr
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/SIMR_00000000>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/SIMR_0000003>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/SIMR_0000014>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/SIMR_0000017>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/SIMR_00000000> (simr)\n\nSubClassOf(<http://purl.obolibrary.org/obo/SIMR_00000000> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/SIMR_0000003> (media)\n\nSubClassOf(<http://purl.obolibrary.org/obo/SIMR_0000003> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/SIMR_0000014> (chemical entity)\n\nSubClassOf(<http://purl.obolibrary.org/obo/SIMR_0000014> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/SIMR_0000017> (classification)\n\nSubClassOf(<http://purl.obolibrary.org/obo/SIMR_0000017> owl:Thing)\n\n\n)
+
+[Term]
+id: SIMR:00000000
+name: simr
+def: "Stowers Institute for Medical Research" []
+
+[Term]
+id: SIMR:0000001
+name: representative
+namespace: SIMRbase_terms
+def: "an example of a class or group." [https://www.merriam-webster.com/dictionary/representative]
+is_a: SIMR:0000016 ! subjective
+
+[Term]
+id: SIMR:0000002
+name: favorite
+namespace: SIMRbase_terms
+def: "one that is treated or regarded with special favor or liking." [https://www.merriam-webster.com/dictionary/favorite]
+is_a: SIMR:0000016 ! subjective
+
+[Term]
+id: SIMR:0000003
+name: media
+def: "media are audo/visual/audiovisual modes of communicating information for mass consumption." [SIO:001194]
+created_by: Sofia Robb
+creation_date: 2017-06-09T21:13:54Z
+
+[Term]
+id: SIMR:0000004
+name: movie
+def: "A movie is a series of images that are displayed in rapid succession to give the impression of movement." [SIO:000297]
+is_a: SIMR:0000003 ! media
+created_by: Sofia Robb
+creation_date: 2017-06-09T21:23:40Z
+
+[Term]
+id: SIMR:0000006
+name: single image
+def: "A figure with a single image." []
+is_a: SIMR:0000007 ! image
+created_by: Sofia Robb
+creation_date: 2017-06-09T21:29:09Z
+
+[Term]
+id: SIMR:0000007
+name: image
+def: "An image is an affine projection of a visual entity to a two dimensional surface." [SIO:000081]
+is_a: SIMR:0000003 ! media
+created_by: Sofia Robb
+creation_date: 2017-06-09T21:29:37Z
+
+[Term]
+id: SIMR:0000008
+name: panel of images
+def: "A figure comprised of multiple images." []
+is_a: SIMR:0000007 ! image
+created_by: Sofia Robb
+creation_date: 2017-06-09T21:29:49Z
+
+[Term]
+id: SIMR:0000009
+name: neomycin
+def: "A broad-spectrum highly toxic antibiotic or mixture of antibiotics produced by a streptomyces (Streptomyces fradiae) and used medically especially to treat local infections." []
+subset: 3_STAR
+synonym: "Neomycin" EXACT [KEGG_COMPOUND]
+xref: CAS:1404-04-2 "KEGG COMPOUND"
+xref: CHEBI:7507
+xref: DrugBank:DB00994
+xref: KEGG:C00384
+xref: KEGG:D08260
+is_a: SIMR:0000014 ! chemical entity
+
+[Term]
+id: SIMR:0000010
+name: LY-411575
+def: "A dibenzoazepine that is 5,7-dihydro-6H-dibenzo[b,d]azepin-6-one which is substituted at the 7 pro-S position by the C-terminal carboxamide nitrogen of N(2)-[(2S)-2-(3,5-difluorophenyl)-2-hydroxyacetyl]-L-alaninamide. It is a potent, cell permeable and selective gamma-secretase inhibitor. It has been tested as a possible treatment for Alzheimer's disease and shows promise for its potential to counteract severe hearing loss." []
+subset: 3_STAR
+synonym: "0" RELATED CHARGE [ChEBI]
+synonym: "479.166" RELATED MONOISOTOPIC_MASS [ChEBI]
+synonym: "479.47530" RELATED MASS [ChEBI]
+synonym: "C26H23F2N3O4" RELATED FORMULA [ChEBI]
+synonym: "C[C@H](NC(=O)[C@@H](O)c1cc(F)cc(F)c1)C(=O)N[C@H]1c2ccccc2-c2ccccc2N(C)C1=O" RELATED SMILES [ChEBI]
+synonym: "InChI=1S/C26H23F2N3O4/c1-14(29-25(34)23(32)15-11-16(27)13-17(28)12-15)24(33)30-22-20-9-4-3-7-18(20)19-8-5-6-10-21(19)31(2)26(22)35/h3-14,22-23,32H,1-2H3,(H,29,34)(H,30,33)/t14-,22-,23-/m0/s1" RELATED InChI [ChEBI]
+synonym: "LSN-411575" RELATED [ChEBI]
+synonym: "LY-411575" EXACT [SUBMITTER]
+synonym: "LY411575" RELATED [ChEBI]
+synonym: "N(2)-[(2S)-2-(3,5-difluorophenyl)-2-hydroxyacetyl]-N-[(7S)-5-methyl-6-oxo-6,7-dihydro-5H-dibenzo[b,d]azepin-7-yl]-L-alaninamide" EXACT IUPAC_NAME [IUPAC]
+synonym: "N(2)-[(2S)-2-(3,5-difluorophenyl)-2-hydroxyethanoyl]-N(1)-[(7S)-5-methyl-6-oxo-6,7-dihydro-5H-dibenzo[b,d]azepin-7-yl]-L-alaninamide" RELATED [ChEBI]
+synonym: "ULSSJYNJIZWPSB-CVRXJBIPSA-N" RELATED InChIKey [ChEBI]
+xref: CHEBI:87359
+xref: PMID:14718585 "Europe PMC"
+xref: PMID:15743924 "Europe PMC"
+xref: PMID:17897827 "Europe PMC"
+xref: PMID:19419556 "Europe PMC"
+xref: PMID:22824752 "Europe PMC"
+xref: PMID:23209290 "Europe PMC"
+xref: PMID:23312516 "Europe PMC"
+xref: PMID:23901284 "Europe PMC"
+xref: PMID:24113577 "Europe PMC"
+xref: PMID:24223998 "Europe PMC"
+xref: PMID:24884926 "Europe PMC"
+xref: PMID:25781991 "Europe PMC"
+xref: Reaxys:10736555 "Reaxys"
+is_a: SIMR:0000014 ! chemical entity
+
+[Term]
+id: SIMR:0000011
+name: SU5402
+def: "An oxindole that is 3-methyleneoxindole in which one of the hydrogens of the methylene group is substituted by a 3-(2-carboxyethyl)-4-methyl-1H-pyrrol-2-yl group. It is an ATP-competitive inhibitor of the tyrosine kinase activity of fibroblast growth factor receptor 1." []
+subset: 3_STAR
+synonym: "0" RELATED CHARGE [ChEBI]
+synonym: "296.116" RELATED MONOISOTOPIC_MASS [ChEBI]
+synonym: "296.32050" RELATED MASS [ChEBI]
+synonym: "3-[3-(2-carboxyethyl)-4-methylpyrrol-2-methylidenyl]-2-indolinone" RELATED [SUBMITTER]
+synonym: "3-{4-methyl-2-[(2-oxo-1,2-dihydro-3H-indol-3-ylidene)methyl]-1H-pyrrol-3-yl}propanoic acid" EXACT IUPAC_NAME [IUPAC]
+synonym: "3-{[3-(2-carboxyethyl)-4-methylpyrrol-2-yl]methylene}-2-indolinone" RELATED [ChEBI]
+synonym: "[H]C(c1[nH]cc(C)c1CCC(O)=O)=C1C(=O)Nc2ccccc12" RELATED SMILES [ChEBI]
+synonym: "C17H16N2O3" RELATED FORMULA [ChEBI]
+synonym: "InChI=1S/C17H16N2O3/c1-10-9-18-15(11(10)6-7-16(20)21)8-13-12-4-2-3-5-14(12)19-17(13)22/h2-5,8-9,18H,6-7H2,1H3,(H,19,22)(H,20,21)" RELATED InChI [ChEBI]
+synonym: "JNDVEAXZWJIOKB-UHFFFAOYSA-N" RELATED InChIKey [ChEBI]
+synonym: "SU 5402" RELATED [ChEBI]
+synonym: "SU-5402" RELATED [ChEBI]
+synonym: "Su-5402" RELATED [ChEBI]
+xref: CHEBI:63449
+xref: Reaxys:8004406 "Reaxys"
+is_a: SIMR:0000014 ! chemical entity
+
+[Term]
+id: SIMR:0000012
+name: PD173074
+def: "A member of the class of ureas that is 1-tert-butylurea in which one of the hydrogens attached to N(3) is substituted by a pyrido[2,3-d]pyrimidin-7-yl group, which is itself substituted at positions 2 and 6 by a 4-(diethylamino)butyl]amino group and a 3,5-dimethoxyphenyl group, respectively. It is a FGF/VEGF receptor tyrosine kinase inhibitor." []
+subset: 3_STAR
+synonym: "0" RELATED CHARGE [ChEBI]
+synonym: "1-tert-butyl-3-[2-{[4-(diethylamino)butyl]amino}-6-(3,5-dimethoxyphenyl)pyrido[2,3-d]pyrimidin-7-yl]urea" EXACT IUPAC_NAME [IUPAC]
+synonym: "523.327" RELATED MONOISOTOPIC_MASS [ChEBI]
+synonym: "523.67020" RELATED MASS [ChEBI]
+synonym: "C28H41N7O3" RELATED FORMULA [ChEBI]
+synonym: "CCN(CC)CCCCNc1ncc2cc(-c3cc(OC)cc(OC)c3)c(NC(=O)NC(C)(C)C)nc2n1" RELATED SMILES [ChEBI]
+synonym: "DXCUKNQANPLTEJ-UHFFFAOYSA-N" RELATED InChIKey [ChEBI]
+synonym: "InChI=1S/C28H41N7O3/c1-8-35(9-2)13-11-10-12-29-26-30-18-20-16-23(19-14-21(37-6)17-22(15-19)38-7)25(31-24(20)32-26)33-27(36)34-28(3,4)5/h14-18H,8-13H2,1-7H3,(H3,29,30,31,32,33,34,36)" RELATED InChI [ChEBI]
+synonym: "PD 173074" RELATED [ChEBI]
+synonym: "PD-173074" RELATED [ChEBI]
+xref: CAS:219580-11-7 "ChemIDplus"
+xref: CHEBI:63448
+xref: LINCS:LSM-1026
+xref: PMID:14598292 "Europe PMC"
+xref: PMID:14715624 "Europe PMC"
+xref: PMID:14960493 "Europe PMC"
+xref: PMID:16448042 "Europe PMC"
+xref: PMID:17356708 "Europe PMC"
+xref: PMID:19340397 "Europe PMC"
+xref: PMID:19903855 "Europe PMC"
+xref: PMID:19955487 "Europe PMC"
+xref: Reaxys:10130688 "Reaxys"
+is_a: SIMR:0000014 ! chemical entity
+
+[Term]
+id: SIMR:0000013
+name: tyrphostin AG 1478
+def: "A member of the class of  quinazolines that is quinazoline substituted by methoxy groups at positions 6 and 7 and a (3-chlorophenyl)nitrilo group at position 4. It acts as an  epidermal growth factor receptor antagonist." []
+subset: 3_STAR
+synonym: "0" RELATED CHARGE [ChEBI]
+synonym: "315.077" RELATED MONOISOTOPIC_MASS [ChEBI]
+synonym: "315.755" RELATED MASS [ChEBI]
+synonym: "AG 1478" RELATED [ChemIDplus]
+synonym: "AG-1478" RELATED [ChemIDplus]
+synonym: "C12=CC(=C(C=C1C(=NC=N2)NC=3C=CC=C(C3)Cl)OC)OC" RELATED SMILES [ChEBI]
+synonym: "C16H14ClN3O2" RELATED FORMULA [ChEBI]
+synonym: "GFNNBHLJANVSQV-UHFFFAOYSA-N" RELATED InChIKey [ChEBI]
+synonym: "InChI=1S/C16H14ClN3O2/c1-21-14-7-12-13(8-15(14)22-2)18-9-19-16(12)20-11-5-3-4-10(17)6-11/h3-9H,1-2H3,(H,18,19,20)" RELATED InChI [ChEBI]
+synonym: "N-(3-chlorophenyl)-6,7-dimethoxy-quinazolin-4-amine" EXACT IUPAC_NAME [IUPAC]
+synonym: "tyrphostin AG-1478" RELATED [ChEBI]
+xref: CAS:170449-18-0 "ChemIDplus"
+xref: CHEBI:75404
+xref: LINCS:LSM-1224
+xref: PDBeChem:0TO
+xref: PMID:20008468 "Europe PMC"
+xref: PMID:22646904 "Europe PMC"
+xref: PMID:8752145 "Europe PMC"
+xref: Reaxys:7437034 "Reaxys"
+is_a: SIMR:0000014 ! chemical entity
+
+[Term]
+id: SIMR:0000014
+name: chemical entity
+def: "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances." []
+subset: 3_STAR
+synonym: "chemical entity" EXACT [UniProt]
+xref: CHEBI:24431
+
+[Term]
+id: SIMR:0000015
+name: objective
+def: "of, relating to, or being an object, phenomenon, or condition in the realm of sensible experience independent of individual thought and perceptible by all observers :  having reality independent of the mind" [https://www.merriam-webster.com/dictionary/objective]
+is_a: SIMR:0000017 ! classification
+created_by: Sofia Robb
+creation_date: 2017-07-28T17:16:15Z
+
+[Term]
+id: SIMR:0000016
+name: subjective
+def: "characteristic of or belonging to reality as perceived rather than as independent of mind" [https://www.merriam-webster.com/dictionary/subjective]
+is_a: SIMR:0000017 ! classification
+created_by: Sofia Robb
+creation_date: 2017-07-28T17:17:44Z
+
+[Term]
+id: SIMR:0000017
+name: classification
+def: "systematic arrangement in groups or categories according to established criteria" [https://www.merriam-webster.com/dictionary/classification]
+created_by: Sofia Robb
+creation_date: 2017-07-28T17:19:00Z
+

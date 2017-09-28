@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/simr
+
+idspace: SIMR
+base_url: /obo/simr
+
+products:
+- simr.owl: https://raw.githubusercontent.com/smr/master/simr.owl
+- simr.obo: https://raw.githubusercontent.com/smr/master/simr.obo
+
+term_browser: ontobee
+example_terms:
+- SIMR_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/smr/simr/v
+
+- prefix: /tracker/
+  replacement: https://github.com/smr/simr/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/SIMR?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/smr/simr/master/
