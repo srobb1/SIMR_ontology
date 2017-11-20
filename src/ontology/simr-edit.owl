@@ -183,6 +183,82 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PLANA_0007551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007551">
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-20T18:03:46Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">sample flow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANA_0007552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007552">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007551"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-20T18:04:17Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">sample preparation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANA_0007553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007553">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007551"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-20T18:04:35Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">sample processing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANA_0007554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007554">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007551"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-20T18:05:22Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">acquisition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANA_0007555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007555">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007551"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-20T18:05:41Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANA_0007556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007556">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007551"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-20T18:05:53Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">deliverable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANA_0007557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007557">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007551"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-20T18:06:19Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">sample submission</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SIMR_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000001">
