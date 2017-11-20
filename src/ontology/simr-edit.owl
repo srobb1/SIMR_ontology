@@ -183,16 +183,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SIMR_00000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_00000000">
-        <obo:IAO_0000115>Stowers Institute for Medical Research</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace>SIMR_terms</oboInOwl:hasOBONamespace>
-        <rdfs:label xml:lang="en">simr</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/SIMR_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000001">
@@ -8191,6 +8181,192 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-28T22:13:31Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref>PMID:22434194</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">mTurquoise2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SIMR_0000538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000538">
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:55:59Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">core</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SIMR_0000539 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000539">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:56:48Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">laborary animal services</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SIMR_0000540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000540">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:56:55Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">reptile &amp; amphibians​</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SIMR_0000541 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000541">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:57:01Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">aquatics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SIMR_0000542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000542">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:57:05Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">cytometry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SIMR_0000543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:57:11Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">electron micorscopy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SIMR_0000544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000544">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:57:18Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">fly stock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SIMR_0000545 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000545">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:57:22Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">histology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SIMR_0000546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000546">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:57:27Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">media prep</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SIMR_0000547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:57:32Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">microscopy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SIMR_0000548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000548">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:57:39Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">molecular biology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SIMR_0000549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000549">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:57:43Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">proteomics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SIMR_0000550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000550">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:57:47Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">screening</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SIMR_0000551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000551">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:57:52Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">tissue culture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SIMR_0000552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000552">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:57:59Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">computational biology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SIMR_0000553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000553">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:58:02Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">genomics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SIMR_0000554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000554">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:58:06Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">research advisors​​</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
