@@ -8,6 +8,7 @@ remark: Pleease send corrections and additions to smr@stowers.org
 remark: SIMR Ontology
 remark: This CV covers sample preparation, visualization and imaging methods.
 ontology: simr
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/PLANA_0007551>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/SIMR_0000003>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/SIMR_0000014>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/SIMR_0000017>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/SIMR_0000019>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/SIMR_0000020>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/SIMR_0000052>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/SIMR_0000538>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/PLANA_0007551> (sample flow)\n\nSubClassOf(<http://purl.obolibrary.org/obo/PLANA_0007551> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/SIMR_0000003> (media)\n\nSubClassOf(<http://purl.obolibrary.org/obo/SIMR_0000003> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/SIMR_0000014> (chemical entity)\n\nSubClassOf(<http://purl.obolibrary.org/obo/SIMR_0000014> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/SIMR_0000017> (classification)\n\nSubClassOf(<http://purl.obolibrary.org/obo/SIMR_0000017> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/SIMR_0000019> (imaging method)\n\nSubClassOf(<http://purl.obolibrary.org/obo/SIMR_0000019> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/SIMR_0000020> (sample preparation method)\n\nSubClassOf(<http://purl.obolibrary.org/obo/SIMR_0000020> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/SIMR_0000052> (visualization method)\n\nSubClassOf(<http://purl.obolibrary.org/obo/SIMR_0000052> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/SIMR_0000538> (core)\n\nSubClassOf(<http://purl.obolibrary.org/obo/SIMR_0000538> owl:Thing)\n\n\n)
 
 [Term]
 id: PLANA:0007551
@@ -18,35 +19,36 @@ creation_date: 2017-11-20T18:03:46Z
 [Term]
 id: PLANA:0007552
 name: sample preparation
-is_a: PLANA:0007551 ! sample flow
+def: "http://purl.obolibrary.org/obo/simr.owl/" []
+is_a: PLANA:0007566 ! pre submission
 created_by: Steph Nowotarski
 creation_date: 2017-11-20T18:04:17Z
 
 [Term]
 id: PLANA:0007553
-name: sample processing
-is_a: PLANA:0007551 ! sample flow
+name: sample processing (why)
+is_a: PLANA:0007567 ! post submission
 created_by: Steph Nowotarski
 creation_date: 2017-11-20T18:04:35Z
 
 [Term]
 id: PLANA:0007554
 name: acquisition
-is_a: PLANA:0007551 ! sample flow
+is_a: PLANA:0007567 ! post submission
 created_by: Steph Nowotarski
 creation_date: 2017-11-20T18:05:22Z
 
 [Term]
 id: PLANA:0007555
 name: analysis
-is_a: PLANA:0007551 ! sample flow
+is_a: PLANA:0007567 ! post submission
 created_by: Steph Nowotarski
 creation_date: 2017-11-20T18:05:41Z
 
 [Term]
 id: PLANA:0007556
 name: deliverable
-is_a: PLANA:0007551 ! sample flow
+is_a: PLANA:0007567 ! post submission
 created_by: Steph Nowotarski
 creation_date: 2017-11-20T18:05:53Z
 
@@ -56,6 +58,41 @@ name: sample submission
 is_a: PLANA:0007551 ! sample flow
 created_by: Steph Nowotarski
 creation_date: 2017-11-20T18:06:19Z
+
+[Term]
+id: PLANA:0007563
+name: user (who)
+is_a: PLANA:0007557 ! sample submission
+created_by: Steph Nowotarski
+creation_date: 2017-12-20T19:23:56Z
+
+[Term]
+id: PLANA:0007564
+name: (where) core
+is_a: PLANA:0007557 ! sample submission
+created_by: Steph Nowotarski
+creation_date: 2017-12-20T19:24:04Z
+
+[Term]
+id: PLANA:0007565
+name: organism (what)
+is_a: PLANA:0007557 ! sample submission
+created_by: Steph Nowotarski
+creation_date: 2017-12-20T19:24:17Z
+
+[Term]
+id: PLANA:0007566
+name: pre submission
+is_a: PLANA:0007551 ! sample flow
+created_by: Steph Nowotarski
+creation_date: 2017-12-20T20:28:13Z
+
+[Term]
+id: PLANA:0007567
+name: post submission
+is_a: PLANA:0007551 ! sample flow
+created_by: Steph Nowotarski
+creation_date: 2017-12-20T20:28:28Z
 
 [Term]
 id: SIMR:0000001
@@ -268,18 +305,11 @@ creation_date: 2017-07-28T17:19:00Z
 id: SIMR:0000019
 name: imaging method
 xref: FBbi:00000222
-is_a: SIMR:0000021 ! Biological Imaging Method
 
 [Term]
 id: SIMR:0000020
 name: sample preparation method
 xref: FBbi:00000001
-is_a: SIMR:0000021 ! Biological Imaging Method
-
-[Term]
-id: SIMR:0000021
-name: Biological Imaging Method
-xref: FBbi_root:00000000
 
 [Term]
 id: SIMR:0000022
@@ -475,7 +505,6 @@ is_a: SIMR:0000046 ! sectioned tissue
 id: SIMR:0000052
 name: visualization method
 xref: FBbi:00000031
-is_a: SIMR:0000021 ! Biological Imaging Method
 
 [Term]
 id: SIMR:0000053

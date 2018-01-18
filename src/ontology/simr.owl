@@ -198,7 +198,8 @@
     <!-- http://purl.obolibrary.org/obo/PLANA_0007552 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007552">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007551"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007566"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/simr.owl/"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-20T18:04:17Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">sample preparation</rdfs:label>
@@ -209,10 +210,10 @@
     <!-- http://purl.obolibrary.org/obo/PLANA_0007553 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007553">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007551"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007567"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-20T18:04:35Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">sample processing</rdfs:label>
+        <rdfs:label xml:lang="en">sample processing (why)</rdfs:label>
     </owl:Class>
     
 
@@ -220,7 +221,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANA_0007554 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007554">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007551"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007567"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-20T18:05:22Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">acquisition</rdfs:label>
@@ -231,7 +232,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANA_0007555 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007555">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007551"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007567"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-20T18:05:41Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">analysis</rdfs:label>
@@ -242,7 +243,7 @@
     <!-- http://purl.obolibrary.org/obo/PLANA_0007556 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007556">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007551"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007567"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-20T18:05:53Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">deliverable</rdfs:label>
@@ -257,6 +258,61 @@
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-20T18:06:19Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">sample submission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANA_0007563 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007563">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007557"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-20T19:23:56Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">user (who)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANA_0007564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007564">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007557"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-20T19:24:04Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">(where) core</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANA_0007565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007565">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007557"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-20T19:24:17Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">organism (what)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANA_0007566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007566">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007551"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-20T20:28:13Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">pre submission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANA_0007567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007567">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007551"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-20T20:28:28Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">post submission</rdfs:label>
     </owl:Class>
     
 
@@ -1111,7 +1167,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000021"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000222</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging method</rdfs:label>
@@ -1122,21 +1178,10 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000021"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000001</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sample preparation method</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SIMR_0000021 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000021">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi_root:00000000</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological Imaging Method</rdfs:label>
     </owl:Class>
     
 
@@ -1490,7 +1535,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000021"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000031</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visualization method</rdfs:label>
