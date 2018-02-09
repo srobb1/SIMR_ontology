@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/simr.owl/"
      xml:base="http://purl.obolibrary.org/obo/simr.owl/"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -41,6 +42,54 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/charge -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/charge"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/formula -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/formula"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchi -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchi"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchikey -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchikey"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/mass -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/mass"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/monoisotopicmass -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/monoisotopicmass"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/smiles -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/smiles"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
@@ -68,6 +117,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#default-namespace -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
     
 
 
@@ -183,6 +238,540 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_31624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31624">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A xanthene dye that is highly fluorescent, detectable even when present in minute quantities. Used forensically to detect traces of blood, in analytical chemistry as an indicator in silver nitrate titrations and in microscopy.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C20H12O5</chebi:formula>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C20H12O5/c21-11-5-7-15-17(9-11)24-18-10-12(22)6-8-16(18)20(15)14-4-2-1-3-13(14)19(23)25-20/h1-10,21-22H</chebi:inchi>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GNBHRKFJIUUOQI-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">332.307</chebi:mass>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">332.068</chebi:monoisotopicmass>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OC1=CC=C2C3(OC(C4=C3C=CC=C4)=O)C=5C(OC2=C1)=CC(=CC5)O</chebi:smiles>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:606590</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:94324</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:2321-07-5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:31624</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DrugBank:DB00693</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gmelin:248626</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMDB:HMDB0014831</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D01261</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDB:4FAB</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:1517825</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15465055</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16195545</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20371259</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:2508085</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26756394</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7868912</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:94324</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Fluorescein</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3&apos;,6&apos;-dihydroxy-3H-spiro[2-benzofuran-1,9&apos;-xanthen]-3-one</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3&apos;,6&apos;-dihydroxyfluoran</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3,6-fluorandiol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9-(o-carboxyphenyl)-6-hydroxy-3-isoxanthenone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9-(o-carboxyphenyl)-6-hydroxy-3H-xanthen-3-one</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C.I. 45350</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C.I. Solvent Yellow 94</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D and C Yellow No. 7</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D&amp;C Yellow No. 7</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluoreszein</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japan Yellow 201</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solvent Yellow 94</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow fluorescein</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluoresceine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resorcinolphthalein</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37926 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37926">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An oxaspiro compound that is an isothiocyanato derivative of fluorescein. It exists as two isomers, with the isothiocyanato group located at either the 5- or 6-position.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:1407295</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:27072-45-3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:37926</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10771133</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11033063</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15459331</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:15532565</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17222473</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17826731</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18230185</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18281972</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23319388</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23477460</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23596091</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7430623</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7674093</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7680023</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:7764542</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:8735869</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9540973</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3&apos;,6&apos;-dihydroxy-4-isothiocyanato-3H-spiro[2-benzofuran-1,9&apos;-xanthen]-3-one</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescein isothiocyanate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3&apos;,6&apos;-Dihydroxy-5(or 6)-isothiocyanatospiro(isobenzofuran-1(3H),9&apos;-(9H)xanthene)-3-one</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FITC</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluoreszeinisothiocyanat</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FITC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37987">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">+1</chebi:charge>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C19H15N2R2</chebi:formula>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">271.33580</chebi:mass>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">271.124</chebi:monoisotopicmass>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[H]C(=CC([H])=C1Cc2ccccc2N1[*])C1=[N+]([*])c2ccccc2C1</chebi:smiles>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:37987</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cy3 dye</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37989 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37989">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">+1</chebi:charge>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21H17N2R2</chebi:formula>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">297.37310</chebi:mass>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">297.139</chebi:monoisotopicmass>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[H]C(C=C([H])C1=[N+]([*])c2ccccc2C1)=CC([H])=C1Cc2ccccc2N1[*]</chebi:smiles>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:37989</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cy5 dye</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_44777 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_44777">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A xanthene dye having two fluoro substituents at the 2- and 7-positions and a 2,4-dicarboxyphenyl group at the 9-position.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21H10F2O7</chebi:formula>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C21H10F2O7/c22-13-4-11-17(6-15(13)24)30-18-7-16(25)14(23)5-12(18)19(11)9-2-1-8(20(26)27)3-10(9)21(28)29/h1-7,24H,(H,26,27)(H,28,29)</chebi:inchi>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BRJCLSQFZSHLRL-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">412.29670</chebi:mass>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">412.039</chebi:monoisotopicmass>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OC(=O)c1ccc(c(c1)C(O)=O)-c1c2cc(F)c(O)cc2oc2cc(=O)c(F)cc12</chebi:smiles>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:7837365</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:44777</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DrugBank:DB04750</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDB:2A9N</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:ORE</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16195545</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:7837365</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-(2,7-difluoro-6-hydroxy-3-oxo-3H-xanthen-9-yl)benzene-1,3-dicarboxylic acid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-(2,7-DIFLUORO-6-HYDROXY-3-OXO-3H-XANTHEN-9-YL)ISOPHTHALIC ACID</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-(2,7-difluoro-6-hydroxy-3-oxo-3H-xanthen-9-yl)isophthalic acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oregon green 488 carboxylate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oregon green 488 carboxylic acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oregon green 488</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000084"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C36H30F2N2O13</chebi:formula>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C36H30F2N2O13/c1-18-2-4-24(39(14-32(43)44)15-33(45)46)30(8-18)51-6-7-52-31-9-19(3-5-25(31)40(16-34(47)48)17-35(49)50)36-20-10-22(37)26(41)12-28(20)53-29-13-27(42)23(38)11-21(29)36/h2-5,8-13,41H,6-7,14-17H2,1H3,(H,43,44)(H,45,46)(H,47,48)(H,49,50)</chebi:inchi>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUVXYXNWSVIOSJ-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">736.62589</chebi:mass>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">736.172</chebi:monoisotopicmass>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cc1ccc(N(CC(O)=O)CC(O)=O)c(OCCOc2cc(ccc2N(CC(O)=O)CC(O)=O)-c2c3cc(F)c(O)cc3oc3cc(=O)c(F)cc23)c1</chebi:smiles>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51103</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">{[2-(2-{2-[bis(carboxymethyl)amino]-5-(2,7-difluoro-6-hydroxy-3-oxo-3H-xanthen-9-yl)phenoxy}ethoxy)-4-methylphenyl](carboxymethyl)amino}acetic acid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluo-4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000075"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16H15N5</chebi:formula>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C16H15N5/c17-15(18)10-3-1-9(2-4-10)13-7-11-5-6-12(16(19)20)8-14(11)21-13/h1-8,21H,(H3,17,18)(H3,19,20)</chebi:inchi>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FWBHETKCLVMNFS-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">277.32380</chebi:mass>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">277.133</chebi:monoisotopicmass>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NC(=N)c1ccc(cc1)-c1cc2ccc(cc2[nH]1)C(N)=N</chebi:smiles>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:3557399</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:47165-04-8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51231</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-(4-carbamimidoylphenyl)-1H-indole-6-carboximidamide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-(4-(aminoiminomethyl)phenyl)-1H-indole-6-carboximidamide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4&apos;,6-diamidino-2-phenylindole</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4&apos;,6-diamidinophenyl-indole</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DAPI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000075"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27H28N6O</chebi:formula>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C27H28N6O/c1-3-34-21-8-4-18(5-9-21)26-28-22-10-6-19(16-24(22)30-26)27-29-23-11-7-20(17-25(23)31-27)33-14-12-32(2)13-15-33/h4-11,16-17H,3,12-15H2,1-2H3,(H,28,30)(H,29,31)</chebi:inchi>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRDFBSVERLRRMY-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">452.55106</chebi:mass>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">452.232</chebi:monoisotopicmass>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCOc1ccc(cc1)-c1nc2ccc(cc2[nH]1)-c1nc2ccc(cc2[nH]1)N1CCN(C)CC1</chebi:smiles>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:43198</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:5742</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:1234011</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:23491-52-3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51232</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C11189</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LINCS:LSM-2168</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PDBeChem:HT1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2&apos;-(4-ethoxyphenyl)-5-(4-methylpiperazin-1-yl)-1H,1&apos;H-2,5&apos;-bibenzimidazole</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2&apos;-(4-ETHOXYPHENYL)-5-(4-METHYL-1-PIPERAZINYL)-2,5&apos;-BI-BENZIMIDAZOLE</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2&apos;-(4-ethoxyphenyl)-5-(4-methyl-1-piperazinyl)-2,5&apos;-bi-1H-benzimidazole</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2&apos;-(p-ethoxyphenyl)-5-(4-methyl-1-piperazinyl)-2,5&apos;-bibenzimidazole</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoe 33342</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoechst 33342</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bisbenzimide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Hoechst 33342&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C39H37N3O13S2</chebi:formula>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51248</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexa Fluor 594</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51756">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34H33N3O11S2</chebi:formula>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C34H33N3O11S2/c1-15-33(3,4)21-13-19-25(17-7-9-18(10-8-17)32(40)48-37-23(38)11-12-24(37)39)20-14-22-27(36-16(2)34(22,5)6)31(50(44,45)46)29(20)47-28(19)30(26(21)35-15)49(41,42)43/h7-10,13-16,35H,11-12H2,1-6H3,(H,41,42,43)(H,44,45,46)</chebi:inchi>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WHVNXSBKJGAXKU-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">723.77144</chebi:mass>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">723.156</chebi:monoisotopicmass>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[H+].[H+].CC1Nc2c(cc3c(Oc4c(c5=NC(C)C(C)(C)c5cc4=C3c3ccc(cc3)C(=O)ON3C(=O)CCC3=O)S([O-])(=O)=O)c2S([O-])(=O)=O)C1(C)C</chebi:smiles>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51756</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-(4-{[(2,5-dioxopyrrolidin-1-yl)oxy]carbonyl}phenyl)-2,3,3,7,7,8-hexamethyl-2,3,7,8-tetrahydro-1H-pyrano[3,2-f:5,6-f&apos;]diindole-10,12-disulfonic acid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexa Fluor 532 carboxylic acid, succinimidyl ester</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexa Fluor 532</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51766 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51766">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C37H33N3O13S2</chebi:formula>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51766</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexa Fluor 568 carboxylic acid, succinimidyl ester</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexa Fluor 568</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51819 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51819">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C31H31ClN2O9</chebi:formula>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51819</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATTO 565 free acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATTO 565</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51886 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51886">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C14H15BF2N2O2</chebi:formula>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C14H15BF2N2O2/c1-9-7-10(2)18-13(9)8-12-4-3-11(5-6-14(20)21)19(12)15(18,16)17/h3-4,7-8H,5-6H2,1-2H3,(H,20,21)</chebi:inchi>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BJDJEJIINKBPHY-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">292.08899</chebi:mass>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">292.119</chebi:monoisotopicmass>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cc1cc(C)n2c1C=C1C=CC(CCC(O)=O)=[N+]1[B-]2(F)F</chebi:smiles>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:9347491</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51886</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(3-{5-[(3,5-dimethyl-2H-pyrrol-2-ylidene-kappaN)methyl]-1H-pyrrol-2-yl-kappaN}propanoato)(difluoro)boron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4,4-difluoro-5,7-dimethyl-4-bora-3a,4a-diaza-s-indacene-3-propionic acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BODIPY FL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">+1</chebi:charge>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C33H29N2R2</chebi:formula>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">453.59680</chebi:mass>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">453.233</chebi:monoisotopicmass>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[H]C(C=C([H])C1=[N+]([*])c2ccc3ccccc3c2C1(C)C)=CC([H])=C1N([*])c2ccc3ccccc3c2C1(C)C</chebi:smiles>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:52003</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cy5.5 dye</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000075"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C22H28N4O4</chebi:formula>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C22H28N4O4/c1-25(2)11-9-23-13-5-7-15(27)19-17(13)21(29)20-16(28)8-6-14(18(20)22(19)30)24-10-12-26(3)4/h5-8,23-24,27-28H,9-12H2,1-4H3</chebi:inchi>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WPCPGQDHWVUSRS-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">412.48210</chebi:mass>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">412.211</chebi:monoisotopicmass>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CN(C)CCNc1ccc(O)c2C(=O)c3c(NCCN(C)C)ccc(O)c3C(=O)c12</chebi:smiles>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:52036</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1,5-bis{[2-(dimethylamino)ethyl]amino}-4,8-dihydroxyanthracene-9,10-dione</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRAQ5 dye</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000081"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quaternary ammonium salt A liphophilic dye consisting of a dication that is N,N-dibutyl-4-[6-(pyridin-4-yl)hexa-1,3,5-trien-1-yl]aniline in which the nitrogen of the pyridine moiety is substituted by a 3-(triethylammonio)propyl group and two bromide ions. It is used to selectively stain yeast vacuolar membranes with red fluorescence.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34H53Br2N3</chebi:formula>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C34H53N3.2BrH/c1-6-11-27-36(28-12-7-2)34-22-20-32(21-23-34)18-15-13-14-16-19-33-24-29-35(30-25-33)26-17-31-37(8-3,9-4)10-5;;/h13-16,18-25,29-30H,6-12,17,26-28,31H2,1-5H3;2*1H/q+2;;/p-2</chebi:inchi>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YLCOJTKDARPCKE-UHFFFAOYSA-L</chebi:inchikey>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">663.61300</chebi:mass>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">661.261</chebi:monoisotopicmass>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Br-].[Br-].CCCCN(CCCC)c1ccc(C=CC=CC=Cc2cc[n+](CCC[N+](CC)(CC)CC)cc2)cc1</chebi:smiles>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:52078</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10070780</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10849201</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16291501</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17052249</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18778426</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:18778427</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19542008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:21264209</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22105025</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22485566</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:23884566</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-{6-[4-(dibutylamino)phenyl]hexa-1,3,5-trien-1-yl}-1-[3-(triethylammonio)propyl]pyridinium dibromide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-[6-[4-(diethylamino)phenyl]-1,3,5-hexatrien-1-yl]-1-[3-(triethylammonio)propyl]-pyridiniumbromide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FM4-64</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FM 4-64 dye</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000079"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C32H32Cl2N2O</chebi:formula>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C32H32ClN2O.ClH/c33-19-20-9-11-21(12-10-20)28-26-17-22-5-1-13-34-15-3-7-24(29(22)34)31(26)36-32-25-8-4-16-35-14-2-6-23(30(25)35)18-27(28)32;/h9-12,17-18H,1-8,13-16,19H2;1H/q+1;/p-1</chebi:inchi>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IKEOZQLIVHGQLJ-UHFFFAOYSA-M</chebi:inchikey>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">531.51500</chebi:mass>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">530.189</chebi:monoisotopicmass>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Cl-].ClCc1ccc(cc1)C1=c2cc3CCC[N+]4=c3c(CCC4)c2Oc2c3CCCN4CCCc(cc12)c34</chebi:smiles>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:52156</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9-[4-(chloromethyl)phenyl]-2,3,6,7,12,13,16,17-octahydro-1H,5H,11H,15H-pyrido[3,2,1-ij]quinolizino[1&apos;,9&apos;:6,7,8]chromeno[2,3-f]quinolin-4-ium chloride</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMXRos</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTRed</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chloromethyl-X-rosamine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitoTracker Red</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52315">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C20H15ClN2O3</chebi:formula>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C20H14N2O3.ClH/c21-11-5-7-15-17(9-11)25-18-10-12(22)6-8-16(18)19(15)13-3-1-2-4-14(13)20(23)24;/h1-10H,21-22H2;1H</chebi:inchi>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MYIOYATURDILJN-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">366.79800</chebi:mass>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">366.077</chebi:monoisotopicmass>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Cl-].Nc1ccc2c(-c3ccccc3C(O)=O)c3ccc(N)cc3[o+]c2c1</chebi:smiles>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:4631860</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:13558-31-1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:52315</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3,6-diamino-9-(2-carboxyphenyl)xanthenium chloride</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rh110</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhodamine 110</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52336">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C25H22ClN3O3S</chebi:formula>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C25H21N3O3S.ClH/c1-27(2)15-5-8-19-22(11-15)31-23-12-16(28(3)4)6-9-20(23)24(19)18-10-7-17(32-14-26)13-21(18)25(29)30;/h5-13H,1-4H3;1H</chebi:inchi>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JGVWCANSWKRBCS-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">479.97800</chebi:mass>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">479.107</chebi:monoisotopicmass>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Cl-].CN(C)c1ccc2c(-c3ccc(SC#N)cc3C(O)=O)c3ccc(cc3[o+]c2c1)N(C)C</chebi:smiles>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:4158-89-8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:52336</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9-(2-carboxy-4-thiocyanatophenyl)-3,6-bis(dimethylamino)xanthenium chloride</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhodamine tetramethylisothiocyanate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRITC</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRITC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52661 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52661">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fluorescent dye of absorption wavelength 495 nm and emission wavelength 519 nm, derived from a 3,6-diaminoxanthenium-4,5-disulfate.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:52661</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexa Fluor 488</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52673">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fluorescent dye of absorption wavelength 555 nm and emission wavelength 565 nm, derived from a 3,6-diaminoxanthene-4,5-disulfate.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21H14N2O11S2</chebi:formula>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C21H14N2O11S2/c22-13-5-3-10-15(9-2-1-8(20(24)25)7-12(9)21(26)27)11-4-6-14(23)19(36(31,32)33)17(11)34-16(10)18(13)35(28,29)30/h1-7,22H,23H2,(H,24,25)(H,26,27)(H,28,29,30)(H,31,32,33)</chebi:inchi>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGAZHQIYONOHQN-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">534.47300</chebi:mass>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">534.004</chebi:monoisotopicmass>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nc1ccc2c(-c3ccc(cc3C(O)=O)C(O)=O)c3ccc(=N)c(c3oc2c1S(O)(=O)=O)S(O)(=O)=O</chebi:smiles>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:52673</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4-(6-amino-3-imino-4,5-disulfo-3H-xanthen-9-yl)benzene-1,3-dicarboxylic acid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexa Fluor 555</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52718">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C7-cyanine dye having differentially-substituted 2-indolyl units at each end.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
+        <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C31H34N2O8S2</chebi:formula>
+        <chebi:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C31H34N2O8S2/c1-2-32-25(19-23-21-27(42(36,37)38)14-16-29(23)32)11-7-4-3-5-8-12-26-20-24-22-28(43(39,40)41)15-17-30(24)33(26)18-10-6-9-13-31(34)35/h3-5,7-8,11-12,14-17,21-22H,2,6,9-10,13,18-20H2,1H3,(H2-,34,35,36,37,38,39,40,41)</chebi:inchi>
+        <chebi:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOPCOKFMJOYXHI-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">626.74000</chebi:mass>
+        <chebi:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">626.176</chebi:monoisotopicmass>
+        <chebi:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[H]C(=CC([H])=CC([H])=C1Cc2cc(ccc2N1CC)S(O)(=O)=O)C=C([H])C1=[N+](CCCCCC(O)=O)c2ccc(cc2C1)S([O-])(=O)=O</chebi:smiles>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:52718</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-(5-carboxypentyl)-2-[7-(1-ethyl-5-sulfo-1,3-dihydro-2H-indol-2-ylidene)hepta-1,3,5-trien-1-yl]-3H-indolium-5-sulfonate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-{7-[1-(5-carboxypentyl)-5-sulfo-1,3-dihydro-2H-indol-2-ylidene]hepta-1,3,5-trien-1-yl}-1-ethyl-3H-indolium-5-sulfonate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cy7 dye</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PLANA_0007551 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007551">
@@ -197,7 +786,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007552">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007566"/>
-        <obo:IAO_0000115 rdf:resource=""/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/simr.owl/"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-20T18:04:17Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">sample preparation</rdfs:label>
@@ -1819,19 +2408,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SIMR_0000076 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000076">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000075"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000052</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HO342</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoechst 33342</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoechst 33342</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/SIMR_0000077 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000077">
@@ -1839,18 +2415,6 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000053</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cationic colloidal gold</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SIMR_0000078 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000078">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000079"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000054</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitotracker X</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMX rosamine (Mitotracker Red)</rdfs:label>
     </owl:Class>
     
 
@@ -1887,18 +2451,6 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000112</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">probe for lipid</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SIMR_0000082 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000082">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000062"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000056</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DAPI</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4&apos;,6-diamidino-2-phenylindole (DAPI)</rdfs:label>
     </owl:Class>
     
 
@@ -2741,7 +3293,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000154 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000154">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000142"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000003"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-14T10:25:58Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000455</oboInOwl:hasDbXref>
@@ -5979,19 +6531,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SIMR_0000359 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000359">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-14T10:22:41Z</oboInOwl:creation_date>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000440</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexa Fluor 488</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/SIMR_0000360 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000360">
@@ -6001,45 +6540,6 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000441</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexa Fluor 546</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SIMR_0000361 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000361">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-14T10:22:41Z</oboInOwl:creation_date>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000442</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexa Fluor 568</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SIMR_0000362 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000362">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-14T10:22:41Z</oboInOwl:creation_date>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000443</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexa Fluor 555</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SIMR_0000363 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000363">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-14T10:22:41Z</oboInOwl:creation_date>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000444</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alexa Fluor 594</rdfs:label>
     </owl:Class>
     
 
@@ -6096,58 +6596,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SIMR_0000368 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000368">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-14T10:22:41Z</oboInOwl:creation_date>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000449</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cy3</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SIMR_0000369 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000369">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-14T10:22:41Z</oboInOwl:creation_date>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000450</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cy5</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SIMR_0000370 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000370">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-14T10:22:41Z</oboInOwl:creation_date>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000451</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluorescein (FITC)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SIMR_0000371 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000371">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-14T10:22:41Z</oboInOwl:creation_date>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000452</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhodamine</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/SIMR_0000372 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000372">
@@ -6158,20 +6606,6 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000453</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TexasRed</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SIMR_0000373 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000373">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorophore derivative of rhodamine with ex/em 547/572</obo:IAO_0000115>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-14T10:22:41Z</oboInOwl:creation_date>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000454</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tetramethyl rhodamine (TRITC)</rdfs:label>
     </owl:Class>
     
 
@@ -8487,6 +8921,253 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:58:06Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">research advisors​​</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#ATTO_488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_488">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115>Bright photostable ATTO-TEC dye which excites at 500 nm and emits at 520 nm.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>ATTO 488</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#ATTO_532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_532">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115>Bright photostable ATTO-TEC dye which excites at 532 nm and emits at 552 nm.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>ATTO 532</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#ATTO_550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_550">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115>Bright photostable ATTO-TEC dye which excites at 554 nm and emits at 576 nm.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>ATTO 550</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#ATTO_594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_594">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115>Bright photostable ATTO-TEC dye which excites at 603 nm and emits at 626 nm.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>ATTO 594</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#ATTO_633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115>Bright photostable ATTO-TEC dye which excites at 630 nm and emits at 651 nm.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>ATTO 633</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#ATTO_647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115>Bright photostable ATTO-TEC dye which excites at 647 nm and emits at 667 nm.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>ATTO 647</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#ATTO_647N -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_647N">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115>Bright photostable ATTO-TEC dye which excites at 646 nm and emits at 664 nm and is suitable for STED microscopy</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>ATTO 647N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#CF405M -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#CF405M">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115>Bright and photostable dye from Biotium that absorbs at 408 nm and emits at 452 nm.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>CF405M</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#HaloTag_TMRDirect_Ligand -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#HaloTag_TMRDirect_Ligand">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115>Version of TMR (tetramethylrhodamine) that covalently binds the HaloTag, is cell permeant, and it non-fluorescent until bound.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <oboInOwl:hasDbXref>CHEBI:52336</oboInOwl:hasDbXref>
+        <rdfs:label>TMRDirect HaloTag Ligand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#R110Direct_HaloTag_Ligand -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#R110Direct_HaloTag_Ligand">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115>Version of Rhodamine 110 that covalently binds the HaloTag, is cell permeant, and it non-fluorescent until bound.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <oboInOwl:hasDbXref>CHEBI:52315</oboInOwl:hasDbXref>
+        <rdfs:label>R110Direct HaloTag Ligand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#SNAP-Cell_Oregon_Green -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#SNAP-Cell_Oregon_Green">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115>Version of Oregon Green 488 that binds covalently to the SNAP tag and is cell permeant.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <oboInOwl:hasDbXref>CHEBI:44777</oboInOwl:hasDbXref>
+        <rdfs:label>SNAP-Cell Oregon Green</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#SNAP-Cell_TMR-Star -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#SNAP-Cell_TMR-Star">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <obo:IAO_0000115>Version of TMR (tetramethyl rhodamine) that binds to the SNAP-tag covalently and is cell permeant</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <oboInOwl:hasDbXref>CHEBI:52336</oboInOwl:hasDbXref>
+        <rdfs:label>SNAP-Cell TMR-Star</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#SNAP-tag -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#SNAP-tag">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000098"/>
+        <obo:IAO_0000115>Adaptations of the protein O-6-methylguanine-DNA methyltransferase that can covalently bind fluorescent ligands or purification matrices.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <oboInOwl:created_by>SNAP-tag</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#fluorescent_protein_derived_from_Entacmaea_quadricolor -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#fluorescent_protein_derived_from_Entacmaea_quadricolor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000334"/>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>SIMR_terms</oboInOwl:hasOBONamespace>
+        <rdfs:label>fluorescent protein derived from Entacmaea quadricolor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#haloTag -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#haloTag">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000098"/>
+        <obo:IAO_0000115>Derivatives of haloalkane dehalogenase that can be covalently attached to fluorescent ligands or purification matrices</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>HaloTag</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#mCardinal -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#mCardinal">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#fluorescent_protein_derived_from_Entacmaea_quadricolor"/>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <oboInOwl:hasDbXref>PMID:24633408</oboInOwl:hasDbXref>
+        <rdfs:label>mCardinalFP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#mEos3.1FP -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#mEos3.1FP">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000450"/>
+        <obo:IAO_0000115>next generation of mEos related photoconvertible protein</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <oboInOwl:hasDbXref>PMID:22581370</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>SIMR_terms</oboInOwl:hasOBONamespace>
+        <rdfs:label>mEOS3.1FP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_31624"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_37926"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_37987"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_37989"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_44777"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_51248"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_51756"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_51766"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_51819"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_51886"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_52003"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_52315"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_52336"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_52661"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_52673"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_52718"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMR_0000153"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMR_0000155"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMR_0000360"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMR_0000364"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMR_0000365"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMR_0000366"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMR_0000367"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMR_0000372"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMR_0000374"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMR_0000496"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_488"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_532"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_550"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_594"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_633"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_647"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_647N"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/simr.owl#CF405M"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/simr.owl#HaloTag_TMRDirect_Ligand"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/simr.owl#R110Direct_HaloTag_Ligand"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/simr.owl#SNAP-Cell_Oregon_Green"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/simr.owl#SNAP-Cell_TMR-Star"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
