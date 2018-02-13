@@ -9083,7 +9083,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Widefields"/>
         <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=32</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
-        <rdfs:label>Axiovert 206 MOT</rdfs:label>
+        <rdfs:label>Axiovert 206 MOT (WID)</rdfs:label>
     </owl:Class>
     
 
@@ -9094,7 +9094,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Widefields"/>
         <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=134</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
-        <rdfs:label>Axiovert 206 Std</rdfs:label>
+        <rdfs:label>Axiovert 206 Std (WID)</rdfs:label>
     </owl:Class>
     
 
@@ -9105,7 +9105,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Widefields"/>
         <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=30</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
-        <rdfs:label>Axiovert MOT BW</rdfs:label>
+        <rdfs:label>Axiovert MOT BW (WID)</rdfs:label>
     </owl:Class>
     
 
@@ -9151,7 +9151,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Super-Resolution_Microscopes"/>
         <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=181</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
-        <rdfs:label>Deltavision OMX</rdfs:label>
+        <rdfs:label>Deltavision OMX (OMX)</rdfs:label>
     </owl:Class>
     
 
@@ -9200,6 +9200,7 @@
     <!-- http://purl.obolibrary.org/obo/simr.owl#Instruments -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Instruments">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000308"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000547"/>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <rdfs:label>Microscopy Instruments</rdfs:label>
@@ -9213,7 +9214,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Confocal"/>
         <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=185</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
-        <rdfs:label>LSM-700 Falcon</rdfs:label>
+        <rdfs:label>LSM-700 Falcon (FAL)</rdfs:label>
     </owl:Class>
     
 
@@ -9224,7 +9225,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Confocal"/>
         <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=186</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
-        <rdfs:label>LSM-700 Upright</rdfs:label>
+        <rdfs:label>LSM-700 Upright (UPR)</rdfs:label>
     </owl:Class>
     
 
@@ -9235,7 +9236,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Confocal"/>
         <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=163</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
-        <rdfs:label>LSM-710</rdfs:label>
+        <rdfs:label>LSM-710 (710)</rdfs:label>
     </owl:Class>
     
 
@@ -9248,7 +9249,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Super-Resolution_Microscopes"/>
         <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=187</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
-        <rdfs:label>LSM-780 DS</rdfs:label>
+        <rdfs:label>LSM-780 DS (780)</rdfs:label>
     </owl:Class>
     
 
@@ -9256,7 +9257,7 @@
     <!-- http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000547"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Sample_Labels"/>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <rdfs:label>Microscopy Dyes</rdfs:label>
     </owl:Class>
@@ -9266,7 +9267,7 @@
     <!-- http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000547"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Sample_Labels"/>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <rdfs:label>Microscopy Fluorescent Proteins</rdfs:label>
     </owl:Class>
@@ -9279,7 +9280,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Spinning_Disk_Microscopes"/>
         <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=564</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
-        <rdfs:label>Nikon 3PO</rdfs:label>
+        <rdfs:label>Nikon 3PO (3PO)</rdfs:label>
     </owl:Class>
     
 
@@ -9290,7 +9291,18 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Widefields"/>
         <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=348</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
-        <rdfs:label>Nikon TE2000</rdfs:label>
+        <rdfs:label>Nikon TE2000 (NIW)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#None -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#None">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Instruments"/>
+        <obo:IAO_0000115>Placeholder for undefined microscopy methodology.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>None</rdfs:label>
     </owl:Class>
     
 
@@ -9301,7 +9313,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Widefields"/>
         <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=557</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
-        <rdfs:label>Olympus Slide Scanner</rdfs:label>
+        <rdfs:label>Olympus Slide Scanner (OSS)</rdfs:label>
     </owl:Class>
     
 
@@ -9312,7 +9324,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Spinning_Disk_Microscopes"/>
         <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=176</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
-        <rdfs:label>PE Ultraview</rdfs:label>
+        <rdfs:label>PE Ultraview (ULT)</rdfs:label>
     </owl:Class>
     
 
@@ -9376,7 +9388,26 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Super-Resolution_Microscopes"/>
         <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=669</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
-        <rdfs:label>SP8 STED</rdfs:label>
+        <rdfs:label>SP8 STED (SP8)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#SPIM -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#SPIM">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Instruments"/>
+        <obo:IAO_0000115>Home built sheet plane illumination microscope.  See microscopy center for usage.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>SPIM (SPM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Sample_Labels -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Sample_Labels">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000547"/>
     </owl:Class>
     
 
@@ -9407,7 +9438,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000178"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Instruments"/>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
-        <rdfs:label>webcam</rdfs:label>
+        <rdfs:label>webcam (WEB)</rdfs:label>
     </owl:Class>
     
 
@@ -9418,7 +9449,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Widefields"/>
         <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=137</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
-        <rdfs:label>Widefield sCMOS</rdfs:label>
+        <rdfs:label>Widefield sCMOS (WID)</rdfs:label>
     </owl:Class>
     
 
@@ -9440,7 +9471,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#laser_capture_microdissection"/>
         <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=168</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
-        <rdfs:label>Zeiss Microbeam</rdfs:label>
+        <rdfs:label>Zeiss Microbeam (LCM)</rdfs:label>
     </owl:Class>
     
 
@@ -9501,6 +9532,17 @@
         <oboInOwl:hasDbXref>PMID:22581370</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>SIMR_terms</oboInOwl:hasOBONamespace>
         <rdfs:label>mEOS3.1FP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#undefined -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#undefined">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Sample_Labels"/>
+        <obo:IAO_0000115>Placeholder for undefined label.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>undefined</rdfs:label>
     </owl:Class>
     
 
