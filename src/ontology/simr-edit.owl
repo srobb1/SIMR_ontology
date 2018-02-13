@@ -242,6 +242,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31624">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A xanthene dye that is highly fluorescent, detectable even when present in minute quantities. Used forensically to detect traces of blood, in analytical chemistry as an indicator in silver nitrate titrations and in microscopy.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
@@ -295,6 +296,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37926">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An oxaspiro compound that is an isothiocyanato derivative of fluorescein. It exists as two isomers, with the isothiocyanato group located at either the 5- or 6-position.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:1407295</oboInOwl:hasDbXref>
@@ -333,6 +335,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37987">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">+1</chebi:charge>
         <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C19H15N2R2</chebi:formula>
@@ -351,6 +354,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37989">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">+1</chebi:charge>
         <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21H17N2R2</chebi:formula>
@@ -369,6 +373,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_44777">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A xanthene dye having two fluoro substituents at the 2- and 7-positions and a 2,4-dicarboxyphenyl group at the 9-position.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
@@ -401,6 +406,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000084"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
         <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C36H30F2N2O13</chebi:formula>
@@ -422,6 +428,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51231">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000075"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
         <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16H15N5</chebi:formula>
@@ -448,6 +455,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51232">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000075"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
         <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27H28N6O</chebi:formula>
@@ -482,6 +490,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51248">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C39H37N3O13S2</chebi:formula>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51248</oboInOwl:hasDbXref>
@@ -496,6 +505,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51756">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
         <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34H33N3O11S2</chebi:formula>
@@ -518,6 +528,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51766">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C37H33N3O13S2</chebi:formula>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51766</oboInOwl:hasDbXref>
@@ -533,6 +544,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51819">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C31H31ClN2O9</chebi:formula>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51819</oboInOwl:hasDbXref>
@@ -548,6 +560,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51886">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
         <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C14H15BF2N2O2</chebi:formula>
@@ -571,6 +584,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">+1</chebi:charge>
         <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C33H29N2R2</chebi:formula>
@@ -610,6 +624,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52078">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000081"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quaternary ammonium salt A liphophilic dye consisting of a dication that is N,N-dibutyl-4-[6-(pyridin-4-yl)hexa-1,3,5-trien-1-yl]aniline in which the nitrogen of the pyridine moiety is substituted by a 3-(triethylammonio)propyl group and two bromide ions. It is used to selectively stain yeast vacuolar membranes with red fluorescence.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
@@ -645,6 +660,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52156">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000079"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
         <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C32H32Cl2N2O</chebi:formula>
@@ -669,6 +685,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52315">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
         <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C20H15ClN2O3</chebi:formula>
@@ -693,6 +710,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52336">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
         <chebi:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C25H22ClN3O3S</chebi:formula>
@@ -717,6 +735,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52661">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fluorescent dye of absorption wavelength 495 nm and emission wavelength 519 nm, derived from a 3,6-diaminoxanthenium-4,5-disulfate.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:52661</oboInOwl:hasDbXref>
@@ -731,6 +750,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52673">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fluorescent dye of absorption wavelength 555 nm and emission wavelength 565 nm, derived from a 3,6-diaminoxanthene-4,5-disulfate.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
@@ -753,6 +773,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52718">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C7-cyanine dye having differentially-substituted 2-indolyl units at each end.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <chebi:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</chebi:charge>
@@ -2459,6 +2480,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000083">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000084"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000057</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lucifer yellow</rdfs:label>
@@ -2711,6 +2733,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000106"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000081</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CFP</oboInOwl:hasRelatedSynonym>
@@ -2736,6 +2759,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000108"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000082</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFP</oboInOwl:hasRelatedSynonym>
@@ -2761,6 +2785,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000109">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000110"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000084</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YFP</oboInOwl:hasRelatedSynonym>
@@ -2786,6 +2811,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000112"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000085</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DsRed</oboInOwl:hasRelatedSynonym>
@@ -3006,6 +3032,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000081"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000115</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DiI</rdfs:label>
@@ -3017,6 +3044,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000130">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000081"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000116</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DiO</rdfs:label>
@@ -4177,6 +4205,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000206 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000206">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Confocal"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -4242,6 +4271,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000209 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000209">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Spinning_Disk_Microscopes"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -5109,6 +5139,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000265 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000265">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Super-Resolution_Microscopes"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000216"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methods for increasing the resolution beyond the classical Abbe diffraction limit</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
@@ -6535,6 +6566,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000360">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-14T10:22:41Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000441</oboInOwl:hasDbXref>
@@ -6548,6 +6580,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000364">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-14T10:22:41Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000445</oboInOwl:hasDbXref>
@@ -6561,6 +6594,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000365">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-14T10:22:41Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000446</oboInOwl:hasDbXref>
@@ -6574,6 +6608,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000366">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-14T10:22:41Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000447</oboInOwl:hasDbXref>
@@ -6600,6 +6635,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000372">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorophore with ex/em 589/615</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-14T10:22:41Z</oboInOwl:creation_date>
@@ -6770,6 +6806,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000386">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000108"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:11:07Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000472</oboInOwl:hasDbXref>
@@ -6783,6 +6820,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000387">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000108"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:11:07Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000473</oboInOwl:hasDbXref>
@@ -6796,6 +6834,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000388">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000110"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:14:30Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000474</oboInOwl:hasDbXref>
@@ -6835,6 +6874,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000391">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000110"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:14:30Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000477</oboInOwl:hasDbXref>
@@ -6848,6 +6888,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000392">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000110"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:14:30Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000478</oboInOwl:hasDbXref>
@@ -6939,6 +6980,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000399">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000393"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:16:38Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000486</oboInOwl:hasDbXref>
@@ -7043,6 +7085,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000407">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000397"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:19:04Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000494</oboInOwl:hasDbXref>
@@ -7056,6 +7099,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000408">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000397"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:19:04Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000495</oboInOwl:hasDbXref>
@@ -7303,6 +7347,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000427">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000112"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:22:53Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000514</oboInOwl:hasDbXref>
@@ -7342,6 +7387,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000430">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000112"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:22:53Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000517</oboInOwl:hasDbXref>
@@ -7355,6 +7401,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000431">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000112"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:22:53Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000518</oboInOwl:hasDbXref>
@@ -7433,6 +7480,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000437">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000396"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:24:26Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000524</oboInOwl:hasDbXref>
@@ -7446,6 +7494,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000438">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000396"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:24:26Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000525</oboInOwl:hasDbXref>
@@ -7498,6 +7547,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000442">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000396"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:24:26Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000529</oboInOwl:hasDbXref>
@@ -7693,6 +7743,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000457">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000449"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:31:26Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000544</oboInOwl:hasDbXref>
@@ -7706,6 +7757,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000458">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000449"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:31:26Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000545</oboInOwl:hasDbXref>
@@ -7758,6 +7810,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000462">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000450"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:32:35Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000549</oboInOwl:hasDbXref>
@@ -7797,6 +7850,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000465">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000450"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:32:35Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000552</oboInOwl:hasDbXref>
@@ -7810,6 +7864,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000466">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000450"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:32:35Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000553</oboInOwl:hasDbXref>
@@ -7836,6 +7891,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000468">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000450"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T02:32:35Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000555</oboInOwl:hasDbXref>
@@ -8205,6 +8261,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000496">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorophore derivative of rhodamine with ex/em 580/605</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-05-04T09:02:54Z</oboInOwl:creation_date>
@@ -8729,6 +8786,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000536">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000106"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <obo:IAO_0000115>a brighter variant of ECFP with faster maturation, high photostability, longer mono-exponential lifetime and the highest quantum yield measured for a monomeric fluorescent protein.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-28T22:13:31Z</oboInOwl:creation_date>
@@ -8928,6 +8986,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_488">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115>Bright photostable ATTO-TEC dye which excites at 500 nm and emits at 520 nm.</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <rdfs:label>ATTO 488</rdfs:label>
@@ -8939,6 +8998,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_532">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115>Bright photostable ATTO-TEC dye which excites at 532 nm and emits at 552 nm.</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <rdfs:label>ATTO 532</rdfs:label>
@@ -8950,6 +9010,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_550">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115>Bright photostable ATTO-TEC dye which excites at 554 nm and emits at 576 nm.</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <rdfs:label>ATTO 550</rdfs:label>
@@ -8961,6 +9022,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_594">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115>Bright photostable ATTO-TEC dye which excites at 603 nm and emits at 626 nm.</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <rdfs:label>ATTO 594</rdfs:label>
@@ -8972,6 +9034,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_633">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115>Bright photostable ATTO-TEC dye which excites at 630 nm and emits at 651 nm.</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <rdfs:label>ATTO 633</rdfs:label>
@@ -8983,6 +9046,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_647">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115>Bright photostable ATTO-TEC dye which excites at 647 nm and emits at 667 nm.</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <rdfs:label>ATTO 647</rdfs:label>
@@ -8994,9 +9058,65 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#ATTO_647N">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115>Bright photostable ATTO-TEC dye which excites at 646 nm and emits at 664 nm and is suitable for STED microscopy</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <rdfs:label>ATTO 647N</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#AiryScan -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#AiryScan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000276"/>
+        <obo:IAO_0000115>Method similar to structured illumination with point illumination and a circular array of detectors.  Capable of approx. 140 nm resolution.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>AiryScan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Axiovert_206_MOT -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Axiovert_206_MOT">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Widefields"/>
+        <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=32</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>Axiovert 206 MOT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Axiovert_206_Std -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Axiovert_206_Std">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Widefields"/>
+        <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=134</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>Axiovert 206 Std</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Axiovert_MOT_BW -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Axiovert_MOT_BW">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Widefields"/>
+        <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=30</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>Axiovert MOT BW</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Bimolecular_Fluorescence_Copmlementation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Bimolecular_Fluorescence_Copmlementation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000194"/>
+        <obo:IAO_0000115>Protein interaction and/or cellular compartment localization assay where two halves of a fluorescent protein are attached to target and bait sites and fluorescence emission is a readout of interaction.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>Bimolecular Fluorescence Complementation</rdfs:label>
     </owl:Class>
     
 
@@ -9005,9 +9125,61 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#CF405M">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115>Bright and photostable dye from Biotium that absorbs at 408 nm and emits at 452 nm.</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <rdfs:label>CF405M</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Confocal -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Confocal">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Instruments"/>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <oboInOwl:hasDbXref>FBbi:00000252</oboInOwl:hasDbXref>
+        <rdfs:label>Confocal Microscopes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Deltavision_OMX -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Deltavision_OMX">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000276"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Super-Resolution_Microscopes"/>
+        <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=181</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>Deltavision OMX</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#GFP_1-10 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#GFP_1-10">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000108"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
+        <obo:IAO_0000115>Strands 1-10 of GFP (214 amino acids) optimized for GFP complementation assays with different affinity GFP11 peptides.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <oboInOwl:hasDbXref>FBbi:00000082</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15580262</oboInOwl:hasDbXref>
+        <rdfs:label>GFP 1-10 fragment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#GFP_11 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#GFP_11">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000108"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
+        <obo:IAO_0000115>GFP strand 11 (15 amino acids) optimized for complementation with GFP 1-10 fragment.  Comes in low (M2), medium (M3), and high (M1) affinity versions.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <oboInOwl:hasDbXref>FBbi:00000082</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15580262</oboInOwl:hasDbXref>
+        <rdfs:label>GFP 11 fragment</rdfs:label>
     </owl:Class>
     
 
@@ -9016,6 +9188,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#HaloTag_TMRDirect_Ligand">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115>Version of TMR (tetramethylrhodamine) that covalently binds the HaloTag, is cell permeant, and it non-fluorescent until bound.</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <oboInOwl:hasDbXref>CHEBI:52336</oboInOwl:hasDbXref>
@@ -9024,10 +9197,131 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Instruments -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Instruments">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000547"/>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>Microscopy Instruments</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#LSM-700_Falcon -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#LSM-700_Falcon">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Confocal"/>
+        <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=185</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>LSM-700 Falcon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#LSM-700_Upright -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#LSM-700_Upright">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Confocal"/>
+        <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=186</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>LSM-700 Upright</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#LSM-710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#LSM-710">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Confocal"/>
+        <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=163</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>LSM-710</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#LSM-780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#LSM-780">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#AiryScan"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Confocal"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Super-Resolution_Microscopes"/>
+        <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=187</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>LSM-780 DS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000547"/>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>Microscopy Dyes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000547"/>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>Microscopy Fluorescent Proteins</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Nikon_3PO -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Nikon_3PO">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Spinning_Disk_Microscopes"/>
+        <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=564</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>Nikon 3PO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Nikon_TE2000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Nikon_TE2000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Widefields"/>
+        <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=348</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>Nikon TE2000</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Olympus_Slide_Scanner -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Olympus_Slide_Scanner">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Widefields"/>
+        <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=557</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>Olympus Slide Scanner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#PE_Ultraview -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#PE_Ultraview">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Spinning_Disk_Microscopes"/>
+        <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=176</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>PE Ultraview</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/simr.owl#R110Direct_HaloTag_Ligand -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#R110Direct_HaloTag_Ligand">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115>Version of Rhodamine 110 that covalently binds the HaloTag, is cell permeant, and it non-fluorescent until bound.</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <oboInOwl:hasDbXref>CHEBI:52315</oboInOwl:hasDbXref>
@@ -9040,6 +9334,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#SNAP-Cell_Oregon_Green">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115>Version of Oregon Green 488 that binds covalently to the SNAP tag and is cell permeant.</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <oboInOwl:hasDbXref>CHEBI:44777</oboInOwl:hasDbXref>
@@ -9052,6 +9347,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#SNAP-Cell_TMR-Star">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000154"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Dyes"/>
         <obo:IAO_0000115>Version of TMR (tetramethyl rhodamine) that binds to the SNAP-tag covalently and is cell permeant</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <oboInOwl:hasDbXref>CHEBI:52336</oboInOwl:hasDbXref>
@@ -9064,9 +9360,87 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#SNAP-tag">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000098"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <obo:IAO_0000115>Adaptations of the protein O-6-methylguanine-DNA methyltransferase that can covalently bind fluorescent ligands or purification matrices.</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <oboInOwl:created_by>SNAP-tag</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#SP8_STED -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#SP8_STED">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000278"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Confocal"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Super-Resolution_Microscopes"/>
+        <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=669</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>SP8 STED</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Spinning_Disk_Microscopes -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Spinning_Disk_Microscopes">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Instruments"/>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>Spinning Disk Microscopes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Super-Resolution_Microscopes -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Super-Resolution_Microscopes">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Instruments"/>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>Super-Resolution Microscopes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Webcam -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Webcam">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000178"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Instruments"/>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>webcam</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Widefield_sCMOS -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Widefield_sCMOS">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Widefields"/>
+        <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=137</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>Widefield sCMOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Widefields -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Widefields">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Instruments"/>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>Widefields</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/simr.owl#Zeiss_MicroBeam -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#Zeiss_MicroBeam">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Instruments"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#laser_capture_microdissection"/>
+        <obo:IAO_0000115>http://smc/Microscopy/status.php?content=equip&amp;id=168</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>Zeiss Microbeam</rdfs:label>
     </owl:Class>
     
 
@@ -9086,6 +9460,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#haloTag">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000098"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <obo:IAO_0000115>Derivatives of haloalkane dehalogenase that can be covalently attached to fluorescent ligands or purification matrices</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <rdfs:label>HaloTag</rdfs:label>
@@ -9093,9 +9468,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/simr.owl#laser_capture_microdissection -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#laser_capture_microdissection">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000020"/>
+        <obo:IAO_0000115>Specialty microscope using a UV laser to cut tissues mounted on plasticized slides and capture (e.g. by catapulting) into a specialized collection tube.  Can be used to collect tissue for DNA or RNA sequencing.</obo:IAO_0000115>
+        <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
+        <rdfs:label>laser capture microdissection</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/simr.owl#mCardinal -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#mCardinal">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#fluorescent_protein_derived_from_Entacmaea_quadricolor"/>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <oboInOwl:hasDbXref>PMID:24633408</oboInOwl:hasDbXref>
@@ -9108,6 +9495,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/simr.owl#mEos3.1FP">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000450"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/simr.owl#Microscopy_Fluorescent_Proteins"/>
         <obo:IAO_0000115>next generation of mEos related photoconvertible protein</obo:IAO_0000115>
         <oboInOwl:created_by>Jay Unruh</oboInOwl:created_by>
         <oboInOwl:hasDbXref>PMID:22581370</oboInOwl:hasDbXref>
