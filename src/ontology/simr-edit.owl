@@ -925,6 +925,49 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PLANA_0007568 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007568">
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-21T17:23:48Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">no longer technologically relevant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANA_0007569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007569">
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-21T17:55:40Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">not a technology we use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANA_0007570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panel of images from the same sample reflecting changes in a dimension.  For example: frames of a timelapse.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-21T19:30:13Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">montage of images</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PLANA_0007572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PLANA_0007572">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000020"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steph Nowotarski</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-02-21T19:43:51Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">fixed samples</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SIMR_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000001">
@@ -1792,7 +1835,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007572"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000023"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000002</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
@@ -1941,7 +1984,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007572"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000013</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cryofixed tissue</rdfs:label>
@@ -1952,7 +1995,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007572"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000037"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000015</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
@@ -2064,7 +2107,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007572"/>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000026</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sectioned tissue</rdfs:label>
@@ -2938,7 +2981,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000121">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007572"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tissue treated to make cell membranes permeable, typically for the purpose of allowing access by exogenous stains or substrates.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-07T02:26:37Z</oboInOwl:creation_date>
@@ -3452,17 +3495,6 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000227</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grey scale graphic</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SIMR_0000166 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000166">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000161"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000228</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIMR_terms</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">camera lucida assisted graphic</rdfs:label>
     </owl:Class>
     
 
@@ -4726,7 +4758,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000234 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000234">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000228"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007569"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-09T10:46:27Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000275</oboInOwl:hasDbXref>
@@ -4944,7 +4976,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000250 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000250">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000246"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007568"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-09T11:33:49Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000298</oboInOwl:hasDbXref>
@@ -4957,7 +4989,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000251 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000251">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000246"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007568"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-09T11:33:49Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000299</oboInOwl:hasDbXref>
@@ -5061,7 +5093,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000259 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000259">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000230"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007569"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-09T03:11:47Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000314</oboInOwl:hasDbXref>
@@ -5516,7 +5548,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000289 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000289">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000221"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007569"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-09T10:19:35Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000348</oboInOwl:hasDbXref>
@@ -5762,7 +5794,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000303"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000194"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000018"/>
@@ -5867,7 +5899,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000182"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007569"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000018"/>
@@ -5893,7 +5925,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000310 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000310">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000182"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007569"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optical coherence tomography; an interferometric method of imaging using back-scattered photons (elastic scattering)</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-11T10:32:19Z</oboInOwl:creation_date>
@@ -8595,7 +8627,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000521 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000521">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007572"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-09-04T11:49:25Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000609</oboInOwl:hasDbXref>
@@ -8647,7 +8679,7 @@
     <!-- http://purl.obolibrary.org/obo/SIMR_0000525 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SIMR_0000525">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000246"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PLANA_0007568"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-05-23T09:49:58Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000613</oboInOwl:hasDbXref>
@@ -8812,7 +8844,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:56:48Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">laborary animal services</rdfs:label>
+        <rdfs:label xml:lang="en">laboratory animal services</rdfs:label>
     </owl:Class>
     
 
@@ -8856,7 +8888,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:57:11Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">electron micorscopy</rdfs:label>
+        <rdfs:label xml:lang="en">electron microscopy</rdfs:label>
     </owl:Class>
     
 
@@ -8900,7 +8932,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SIMR_0000538"/>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sofia Robb</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-14T21:57:32Z</oboInOwl:creation_date>
-        <rdfs:label xml:lang="en">microscopy</rdfs:label>
+        <rdfs:label xml:lang="en">light microscopy</rdfs:label>
     </owl:Class>
     
 
