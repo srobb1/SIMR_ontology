@@ -55,8 +55,9 @@ def main():
 
     global synmap
     if args.synonym:
-        f = open(args.synonym, 'r')
+        f = open(args.synonym, 'r', encoding="ISO-8859-1")
         synmap = json.load(f)
+        #s = f.read()
         f.close()
     
     prefixmap = {}
@@ -111,6 +112,7 @@ def main():
         for uri in tobj['imports']:
             print('  Import: <%s>' % uri)
     print('AnnotationProperty: IAO:0000115')
+    print('AnnotationProperty: oio:hasDbXref')
     for v in tobj['vars']:
         print('AnnotationProperty: %s' % make_internal_annotation_property(tobj, v))
     print('AnnotationProperty: %s' % get_applies_pattern_property())
@@ -144,6 +146,8 @@ def main():
             cls_iri = apply_template(tobj['class_iri'], bindings)
         if 'iri' in bindings:
             cls_iri = bindings['iri']
+        elif 'defined_class' in bindings:
+            cls_iri = bindings['defined_class']
         apply_pattern(tobj, qm, bindings, cls_iri, args)
 
     if gcif:
@@ -256,6 +260,8 @@ def apply_pattern(p, qm, bindings, cls_iri, args):
             ##TODO
             if 'iri label' in bindings and bindings['iri label']:
                 label = bindings['iri label']
+            elif 'defined_class label' in bindings and bindings['defined_class label']:
+                label = bindings['defined_class label']
             else:
                 label = text
             write_annotation('rdfs:label', label, bindings)
@@ -263,14 +269,14 @@ def apply_pattern(p, qm, bindings, cls_iri, args):
         tobj = p['def']
         text = apply_template(tobj, bindings, True)
         # todo: protect against special characters
-        write_annotation('IAO:0000115', text, bindings)
+        write_annotation('IAO:0000115', text, bindings, [('oio:hasDbXref', get_pattern_xref(args))])
     if 'annotations' in p:
         tanns = p['annotations']
         for tobj in tanns:
             ap = tobj['annotationProperty']
             text = apply_template(tobj, bindings, True)
             # todo: protect against special characters
-            write_annotation(ap, text, bindings)
+            write_annotation(ap, text, bindings, [('oio:hasDbXref', get_pattern_xref(args))])
     if 'equivalentTo' in p:
         tobj = p['equivalentTo']
         expr_text = apply_template(tobj, bindings)
@@ -311,7 +317,7 @@ def get_applies_pattern_property():
 def make_internal_annotation_property(p, s):
     return p['pattern_name'] + "/"+s
 
-def write_annotation(ap, text, bindings={}):
+def write_annotation(ap, text, bindings={}, anns=[]):
     if titlemode:
         toks = text.split(" ")
         toks[0] = toks[0].title()
@@ -322,7 +328,15 @@ def write_annotation(ap, text, bindings={}):
             text = bindings[ap]
 
     # todo: allow non-literal annotations
-    print(' Annotations: %s %s' % (ap,safe_quote(text)))
+    axiom_anns_str = ""
+    if len(anns) > 0:
+        for (p,v) in anns:
+            if axiom_anns_str == "":
+                axiom_anns_str = "Annotations: "
+            else:
+                axiom_anns_str += ', '
+            axiom_anns_str += '{} {}'.format(p, safe_quote(v))
+    print(' Annotations: %s %s %s' % (axiom_anns_str, ap, safe_quote(text)))
 
 def safe_quote(text):
     text = text.replace("\n"," ").replace('"','\\"')
@@ -335,6 +349,15 @@ def replace_quoted_entities(qm, text):
         text = re.sub("\'"+k+"\'", v, text)  # Suspect this not Pythonic. Could probably be done with a fancy map lambda combo.  
     return text
 
+def get_pattern_xref(args):
+    n = args.name
+    n = n.replace('.owl','')
+    n = n.replace('http://purl.obolibrary.org/obo/','')
+    toks = n.split('/')
+    n = toks[0].upper()
+    p = args.pattern.replace('.yaml','')
+    return '{}:patterns/{}'.format(n,p)
+    
 
 
 if __name__ == "__main__":

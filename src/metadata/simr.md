@@ -3,10 +3,10 @@ layout: ontology_detail
 id: simr
 title: SIMR Ontology
 jobs:
-  - id: https://travis-ci.org/smr/simr-ontology
+  - id: https://travis-ci.org/srobb1/simr-ontology
     type: travis-ci
 build:
-  checkout: git clone https://github.com/smr/simr-ontology.git
+  checkout: git clone https://github.com/srobb1/simr-ontology.git
   system: git
   path: "."
 contact:
@@ -14,12 +14,13 @@ contact:
   label: Chris Mungall
 description: SIMR Ontology is an ontology...
 domain: stuff
-homepage: https://github.com/smr/simr-ontology
+homepage: https://github.com/srobb1/simr-ontology
 products:
   - id: simr.owl
   - id: simr.obo
 dependencies:
-tracker: https://github.com/smr/simr-ontology/issues
+ - id: pato
+tracker: https://github.com/srobb1/simr-ontology/issues
 license:
   url: http://creativecommons.org/licenses/by/3.0/
   label: CC-BY

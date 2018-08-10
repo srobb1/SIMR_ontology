@@ -4,8 +4,8 @@ idspace: SIMR
 base_url: /obo/simr
 
 products:
-- simr.owl: https://raw.githubusercontent.com/smr/master/simr.owl
-- simr.obo: https://raw.githubusercontent.com/smr/master/simr.obo
+- simr.owl: https://raw.githubusercontent.com/srobb1/simr-ontology/master/simr.owl
+- simr.obo: https://raw.githubusercontent.com/srobb1/simr-ontology/master/simr.obo
 
 term_browser: ontobee
 example_terms:
@@ -14,14 +14,14 @@ example_terms:
 entries:
 
 - prefix: /releases/
-  replacement: https://raw.githubusercontent.com/smr/simr/v
+  replacement: https://raw.githubusercontent.com/srobb1/simr-ontology/v
 
 - prefix: /tracker/
-  replacement: https://github.com/smr/simr/issues
+  replacement: https://github.com/srobb1/simr-ontology/issues
 
 - prefix: /about/
   replacement: http://www.ontobee.org/ontology/SIMR?iri=http://purl.obolibrary.org/obo/
 
 ## generic fall-through, serve direct from github by default
 - prefix: /
-  replacement: https://raw.githubusercontent.com/smr/simr/master/
+  replacement: https://raw.githubusercontent.com/srobb1/simr-ontology/master/

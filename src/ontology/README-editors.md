@@ -2,7 +2,15 @@ These notes are for the EDITORS of simr
 
 This project was created using the [ontology starter kit](https://github.com/cmungall/ontology-starter-kit). See the site for details.
 
-For more details on ontology management, please see the [OBO tutorial](https://github.com/jamesaoverton/obo-tutorial) or the [Protege Planteome Tutorial](https://github.com/Planteome/protege-tutorial)
+For more details on ontology management, please see the [OBO tutorial](https://github.com/jamesaoverton/obo-tutorial) or the [Gene Ontology Editors Tutorial](go-protege-tutorial.readthedocs.io)
+
+You may also want to read the [GO ontology editors guide](http://go-ontology.readthedocs.org/)
+
+## Requirements
+
+ 1. Protege (for editing)
+ 2. A git client (we assume command line git)
+ 3. [docker](https://www.docker.com/get-docker) (for managing releases)
 
 ## Editors Version
 
@@ -14,9 +22,9 @@ The editors version is [simr-edit.owl](simr-edit.owl)
 
 ** DO NOT EDIT simr.obo OR simr.owl in the top level directory **
 
-[../../simr.owl] is the release version
+[../../simr.owl](../../simr.owl) is the release version
 
-To edit, open the file in Protege. First make sure you have the repository cloned, see [the GitHub project](https://github.com/smr/simr-ontology) for details.
+To edit, open the file in Protege. First make sure you have the repository cloned, see [the GitHub project](https://github.com/srobb1/simr-ontology) for details.
 
 ## ID Ranges
 
@@ -31,27 +39,47 @@ and add yourself or other editors. Note Protege does not read the file
 - it is up to you to ensure correct Protege configuration.
 
 
-## Setting ID ranges in Protege
+### Setting ID ranges in Protege
 
 We aim to put this up on the technical docs for OBO on http://obofoundry.org/
 
-For now, consult the [Protege Planteome Tutorial](https://github.com/Planteome/protege-tutorial/blob/master/presentations/protege_planteome_tutorial.doc?raw=true) and look for the section "new entities"
+For now, consult the [GO Tutorial on configuring Protege](http://go-protege-tutorial.readthedocs.io/en/latest/Entities.html#new-entities)
 
+## Imports
+
+All import modules are in the [imports/](imports/) folder.
+
+There are two ways to include new classes in an import module
+
+ 1. Reference an external ontology class in the edit ontology. In Protege: "add new entity", then paste in the PURL
+ 2. Add to the imports/foo_terms.txt file
+
+After doing this, you can run
+
+`./run.sh make all_imports`
+
+to regenerate imports.
+
+Note: the foo_terms.txt file may include 'starter' classes seeded from the ontology starter kit. It is safe to remove these.
 
 ## Release Manager notes
 
 You should only attempt to make a release AFTER the edit version is
 committed and pushed, and the travis build passes.
 
+These instructions assume you have
+[docker](https://www.docker.com/get-docker). This folder has a script
+[run.sh](run.sh) that wraps docker commands.
+
 to release:
 
     cd src/ontology
-    make
+    ./run.sh make
 
 If this looks goo
 d type:
 
-    make prepare_release
+    ./run.sh make prepare_release
 
 This generates derived files such as simr.owl and simr.obo and places
 them in the top level (../..). The versionIRI will be added.
@@ -68,8 +96,8 @@ Finally type
 
 IMMEDIATELY AFTERWARDS (do *not* make further modifications) go here:
 
- * https://github.com/smr/simr-ontology/releases
- * https://github.com/smr/simr-ontology/releases/new
+ * https://github.com/srobb1/simr-ontology/releases
+ * https://github.com/srobb1/simr-ontology/releases/new
 
 The value of the "Tag version" field MUST be
 
@@ -96,7 +124,13 @@ For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
 
 # Travis Continuous Integration System
 
-Check the build status here: [![Build Status](https://travis-ci.org/smr/simr-ontology.svg?branch=master)](https://travis-ci.org/smr/simr-ontology)
+Check the build status here: [![Build Status](https://travis-ci.org/srobb1/simr-ontology.svg?branch=master)](https://travis-ci.org/srobb1/simr-ontology)
 
-Note: if you have only just created this project you will need to authorize travis for this repo. Go to [https://travis-ci.org/profile/smr](https://travis-ci.org/profile/smr) for details
+Note: if you have only just created this project you will need to authorize travis for this repo.
+
+ 1. Go to [https://travis-ci.org/profile/srobb1](https://travis-ci.org/profile/srobb1)
+ 2. click the "Sync account" button
+ 3. Click the tick symbol next to simr-ontology
+
+Travis builds should now be activated
 
