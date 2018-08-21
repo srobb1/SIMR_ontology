@@ -1,0 +1,6 @@
+term
+http://purl.obolibrary.org/obo/simr/imports/pato_import.owl
+http://www.w3.org/2002/07/owl#Ontology
+http://www.w3.org/2002/07/owl#Class
+http://purl.obolibrary.org/obo/simr.owl
+http://purl.obolibrary.org/obo/SIMR_00000000
